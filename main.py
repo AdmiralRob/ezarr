@@ -50,6 +50,8 @@ print('Use Readarr? [Y/n]', end=" ")
 take_input('readarr', 'servarr')
 print('Use Mylar3? [Y/n]', end=" ")
 take_input('mylar3', 'servarr')
+print('Use Bazarr? [Y/n]', end=" ")
+take_input('bazarr', 'servarr')
 print('Use Audiobookshelf? [Y/n]', end=" ")
 take_input('audiobookshelf', 'servarr')
 if len(services_classed['servarr']) == 0:
@@ -59,6 +61,8 @@ print('\n===INDEXERS===')
 services_classed['indexer'] = []
 print('Use Prowlarr? [Y/n]', end=" ")
 take_input('prowlarr', 'indexer')
+print('Use Jackett? [Y/n]', end=" ")
+take_input('jackett', 'indexer')
 if len(services_classed['indexer']) == 0:
     print('Warning: no indexing service selected.')
 
